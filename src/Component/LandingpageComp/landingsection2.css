@@ -1,0 +1,112 @@
+.Section2_landingpage{
+    background-color: #eff8fe9e;
+    padding: 4rem 4rem;
+}
+.Section3_landingpage{
+    padding: 4rem 4rem;
+    margin-bottom: 50px;
+}
+.Section2_landingpage_quicktellertext{
+    font-size: 13px;
+    font-weight: 100;
+    color: #003c58;
+}
+.Section2_landingpage_quickdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Section2_landingpage_technologyText{
+    text-align: center;
+    /* line-height: 10px; */
+    color: #003c58;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    max-width: 601px;
+    font-weight: 500;
+    font-size: 35px;
+}
+.Section2_landingpage_quicktellerlargetext{
+    color: #003c58;
+    margin-bottom: 40px;
+    margin-top: 25px;
+    max-width: 601px;
+    font-weight: 500;
+    font-size: 35px;
+}
+.Section2_landingpage_imgtextHolder{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.Section5_landingpage_imgtextHolder{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    align-items: center;
+}
+.Section2_landingpage_textHolder{
+    width: 484px;
+}
+.Section2_landingpage_quicktellerdesc{
+    margin: 0px;
+    line-height: 30px;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.Section2_landingpage_checksign{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.seamlessIntergration{
+    width: 618px;
+    height: 500px;
+}
+.InstantPaymentInvoice{
+    /* position: absolute; */
+    width: 366px;
+    height: 507px;
+    left: 50px;
+    margin-top: 20px;
+}
+.InstantPaymentConfirm{
+    position: absolute;
+    width: 310px;
+    height: 357px;
+    left: 240px;
+    top: 100px;
+    margin-top: 20px;
+    z-index: 100;
+}
+.Section3_heroImgHolder{
+    display:'flex';
+    align-items:'center';
+    justify-content:'center';
+    position: relative;
+}
+@media(max-width: 1000px){
+    .seamlessIntergration{
+        width: 300px;
+        height: 280px;
+    }
+}
+@media(max-width: 1150px){
+    .Section3_heroImgHolder{
+        display: none;
+    }
+}
+@media (max-width: 800px){
+    .Section2_landingpage_imgtextHolder{
+        display: flex;
+        flex-direction: column;
+    }
+    .Section2_landingpage{
+        padding: 2rem ;
+    }
+    .Section3_landingpage{
+        padding: 2rem;
+    }
+}

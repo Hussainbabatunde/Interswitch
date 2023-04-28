@@ -1,0 +1,51 @@
+.Landingpage_Section4{
+    padding: 2rem 4rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Landingpage_Section4_text{
+    width: 461px;
+}
+.Landingpage_Section4_link{
+    text-decoration: underline;
+    color: black;
+}
+.Landingpage_Section4_desc{
+    margin: 0px;
+    line-height: 30px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.illustration{
+    width: 242px;
+    height: 305px;
+    position: absolute;
+    right: 55px;
+    z-index: -100;
+}
+.ImageIllustration_storefront{
+    height: 110vh;
+    padding: 20px 4rem;
+    overflow: hidden;
+}
+.storefront{
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    z-index: 100;
+}
+@media (max-width: 950vh){
+    .ImageIllustration_storefront{
+        height: 70vh;
+    }
+}
+@media (max-width: 800px){
+    .Landingpage_Section4{
+        padding: 2rem;
+        flex-direction: column;
+    }
+    .ImageIllustration_storefront{
+        padding: 2rem;
+    }
+}

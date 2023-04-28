@@ -1,0 +1,41 @@
+.LandingSection7{
+    padding: 2rem 4rem;
+    display: flex;
+    align-items: flex-end;
+}
+.LandingSection7_TopicText{
+    margin: 0px;
+    line-height: 30px;
+    font-size: 16px;
+    margin-bottom: 40px;
+    
+}
+.LandingSection7_textSec{
+    width: 389px;
+}
+.LandingSection7_textBottom{
+    font-size: 14px;    
+    line-height: 30px;
+    margin-top: 30px;
+}
+.LandingSection7_ImageSec{
+    height: 70vh;
+    width: 680px;
+    position: relative;
+}
+.connectpic{
+    width: 87%;
+    height: 67vh;
+    margin-top: 35px;
+}
+@media (max-width: 1250vh){
+    .LandingSection7_ImageSec{
+        display: none;
+    }
+}
+@media (max-width: 800px){
+    
+    .LandingSection7{
+        padding: 2rem;
+    }
+}

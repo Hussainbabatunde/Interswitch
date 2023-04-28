@@ -1,0 +1,62 @@
+.Footer{
+    border: 1px solid rgba(2, 4, 16, 0.1);
+    padding: 80px 4rem;    
+}
+.FooterRow{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.FooterCol{
+    width: 305px;
+    margin-top: 10px;
+}
+.FooterTopic_Text{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.FooterRow2{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.SignUpforfree{
+    width: 180px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #009fe4;
+}
+.Interswitch_bottomfooter{
+    color: #03435e;
+    text-align: left;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.InterSwitch_bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0 0;
+}
+@media (max-width: 800px){
+    
+    .Footer{
+        padding: 2rem;
+    }
+}
+@media (max-width: 600px){
+    .FooterRow{
+        flex-direction: column;
+    }
+    .FooterRow2{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}

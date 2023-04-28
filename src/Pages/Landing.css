@@ -1,0 +1,187 @@
+.Landingpage{
+    
+}
+.AppLogo{
+    width: 165px;
+    height: 55px;
+}
+.Navbar_smallVisible{
+    display: none;
+}
+.NavLink_pages{
+    display: flex;
+    list-style:  none;
+}
+.Navbar_LargeVisible{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7px;
+    font-size: 14px;
+    padding: 0 4.1rem;
+}
+.Navbar_SignUpSignIn{
+    display: flex;
+    align-items: center;
+}
+.Navbar_LinkedPages{
+    margin-left: 20px;
+    color: #003c58;
+    font-weight: 500;
+    font-size: 16px;
+}
+.Navabr_GetStartedButton{
+    background-color: #009fe4;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin-right: 5px;
+}
+.Navbar_SigninLinkButton{
+    background-color: transparent;
+    color: #009fe4;
+    text-decoration: none;
+    margin-right: 20px;
+    width: 80px;
+    text-align: center;
+}
+.HeroSection{
+    padding: 45px 4rem;
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+}
+.HeroSection_TextCol{
+    width: 426.97px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+}
+.HeroSection_topicText{
+    line-height: 50px;
+    width: 426.97px;
+}
+.HeroSection_dashboard_Img{
+    width: 738px;
+    height: 453px;
+    position: absolute;
+    right: 10px;
+}
+.HerSection_ImageHolder{
+    /* position: relative; */
+}
+.HeroSection_detailsText{
+    line-height: 25px;
+    opacity: 0.7;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.HeroSection_GetStarted{
+    background-color: #009fe4;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    width: 220px;
+    text-align: center;
+    padding: 13px 0;
+    margin-top: 50px;
+}
+.HeroSection_terminalMobile{
+    width: 206px;
+    height: 430px;
+    position: absolute;
+    bottom: 42px;
+    right: 0px;
+}
+.HeroSection_webpayMobile{
+    width: 165px;
+    height: 385px;
+    position: absolute;
+    bottom: 42px;
+    right: 185px;
+}
+.Landingpage_CustomerSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Landingpage_Trustedtext{
+    letter-spacing: 1.8px;
+    font-weight: bold;
+    color: #888;
+    margin-bottom: 25px;
+    font-size: 10px;
+}
+.Landingpage_customerslogo{
+    display: flex;
+}
+.Header_homepage{
+    width: 100%;
+}
+.Hamburger_options{
+    position: absolute;
+    background-color: white;
+    right: 0px;
+    top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 26px 0 rgb(92 92 92 / 39%);
+    padding: 20px;
+    width: 250px;
+    z-index: 200;
+}
+.Cancel_hamburger{
+    display: flex;
+    justify-content: flex-end;
+}
+.Signin_hamburger{
+    margin-top: 40px !important;
+    border: none;
+    color: white;
+    background-color: #009fe4;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+.Overview_hamburger{
+    color: #003c58;
+    font-size: 17px;
+    margin-top: 20px;
+}
+@media (max-width: 900px){
+    .Navbar_LargeVisible{
+        display: none;
+    }
+    .Navbar_smallVisible{
+        display: block;
+        width: 100%;   
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7px;
+    font-size: 14px;
+    }
+        
+}
+@media(max-width: 800px){
+    .HerSection_ImageHolder{
+        display: none;
+    }
+}
+@media (max-width: 1260px){
+    .HeroSection_dashboard_Img{
+        display: none;
+    }
+    .HeroSection{
+        padding: 45px 2rem;
+    }
+}
