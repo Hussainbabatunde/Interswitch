@@ -42,7 +42,7 @@ const Signup = () => {
 
   const onSubmit = (values, { resetForm, setSubmitting }) => {
     console.log(values);
-
+    localStorage.setItem('values', values)
     setSubmitting(false);
     resetForm();
   };
